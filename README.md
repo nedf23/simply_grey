@@ -1,0 +1,1 @@
+This is a simple grey Wordpress theme that doesn't take advantage of sidebars and other various features. Just enough for a simple blog.
