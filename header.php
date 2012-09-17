@@ -51,7 +51,7 @@
 
 				<p class="hr_sep"></p>
 
-				<!-- Load the page into an unordered list. -->
+				<!-- Load the page navigation into an unordered list. -->
 				<nav>
 					<?php wp_page_menu('show_home=1') ?>
 				</nav>
