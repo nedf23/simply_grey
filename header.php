@@ -42,9 +42,16 @@
 	<body>
 		<div id="wrapper">
 			<header>
+
+				<!-- Gets the WordPress site name and links it to it's URL. -->
 				<h1><a href="<?php bloginfo('url') ?>"><?php bloginfo('name') ?></a></h1>
+
+				<!-- Load the search form. -->
 				<?php get_search_form() ?>
+
 				<p class="hr_sep"></p>
+
+				<!-- Load the page into an unordered list. -->
 				<nav>
 					<?php wp_page_menu('show_home=1') ?>
 				</nav>

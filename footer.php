@@ -2,6 +2,7 @@
 			<footer>
 				<div class="social">
 					<ul>
+						<!-- All the social icons, add/remove and update as you see fit. -->
 						<li><a href="http://twitter.com/"><img src="<?php bloginfo('template_url') ?>/images/twitter_32.png" title ="Twitter" alt="Twitter" /></a></li>
 						<li><a href="http://facebook.com/"><img src="<?php bloginfo('template_url') ?>/images/facebook_32.png" title ="Facebook" alt="Facebook" /></a></li>
 						<li><a href="https://plus.google.com/"><img src="<?php bloginfo('template_url') ?>/images/google_plus_32.png" title ="Google+" alt="Google+" /></a></li>
@@ -13,9 +14,13 @@
 						<li><a href="http://reddit.com/"><img src="<?php bloginfo('template_url') ?>/images/reddit_32.png" title ="Reddit" alt="Reddit" /></a></li>
 					</ul>
 				</div>
-				<div class="copy">&copy;<?php echo date('Y') ?> ?</div>
+
+				<!-- Copyright -->
+				<div class="copy">&copy;<?php echo date('Y') ?></div>
 			</footer>
 		</div> <!-- End wrapper -->
+		
+		<!-- Google Analytics -->
 		<script type="text/javascript">
 			var _gaq = _gaq || [];
 			_gaq.push(['_setAccount', '?']);
