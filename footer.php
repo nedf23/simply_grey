@@ -32,5 +32,6 @@
 			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 			})();
 		</script>
+		<?php wp_footer(); ?>
 	</body>
 </html>
